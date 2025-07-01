@@ -1,0 +1,125 @@
+Q 1 > What is data ?
+Q 2 > what is file system ?
+
+
+DBMS -> DBMS stands for Database Management System. It is software that helps you store, manage, retrieve, and manipulate data efficiently and securely in a structured format.
+
+
+---
+
+🧠 In Simple Words:
+
+A DBMS is like a digital filing system that allows you to:
+
+Save data (like names, phone numbers)
+
+Search or update it easily
+
+Protect it from unauthorized access
+
+📦 Examples of DBMS:
+
+DBMS Type	Examples
+
+Relational	MySQL, PostgreSQL, Oracle, SQLite
+NoSQL	MongoDB, Cassandra
+DBMS stands for Database Management System. It is software that helps you store, manage, retrieve, and manipulate data efficiently and securely in a structured format.
+
+
+---
+📘 What is Data?
+
+Data is raw facts and figures — information that is unprocessed, unorganized, and meaningless by itself.
+
+
+---
+
+🧠 In Simple Words:
+
+Data is like the ingredients of a dish. On their own, they don’t mean much, but when processed (like cooking), they become useful — this useful result is called information.
+
+
+---
+
+📊 Examples of Data:
+
+Type	Example
+
+Numbers	95, 180, 2025
+Text	"John", "Delhi"
+Images	A photo from a camera
+Sensor	Temperature: 42.6°C
+Audio	A voice recording
+
+
+
+---
+
+🔁 Data vs. Information:
+
+Data	Information
+
+Raw, unorganized facts	Processed, organized, meaningful data
+Example: "90", "85", "70"	"Student scored 90, 85, and 70 in exams"
+
+
+
+---
+
+📌 Types of Data:
+
+1. Structured Data – Organized in tables (like in DBMS).
+
+Example: Name, Age, Marks
+
+
+
+2. Unstructured Data – No fixed format.
+
+Example: Emails, PDFs, Videos
+
+
+
+3. Semi-Structured Data – Partially organized (like JSON, XML).
+
+
+
+
+
+// file ->
+A file system is a method used by operating systems to store, organize, retrieve, and manage data on storage devices like hard drives, SSDs, USB drives, etc.
+
+
+---
+
+🔍 Key Functions of a File System:
+
+1. Data Organization: Breaks storage into files and directories (folders).
+
+
+2. File Management: Allows creation, deletion, reading, and writing of files.
+
+
+3. Access Control: Controls who can access or modify files (permissions).
+
+
+4. Metadata Storage: Keeps details about files like name, size, timestamps, etc.
+
+
+5. Storage Management: Keeps track of used and free space on the disk.
+
+
+
+
+
+---
+
+📌 Example Analogy:
+
+Think of a file system like a library:
+
+Files = books 📚
+
+Directories = shelves 🗂
+
+File system = the librarian who organizes and keeps track of everything 🧑‍🏫
