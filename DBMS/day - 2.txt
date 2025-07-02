@@ -1,0 +1,147 @@
+Q 1 >  What is Data and database ???? 
+
+Q 2 > DBMS AND ITS TYPES ?? 
+
+O 3 > DATA MODELING 
+	→ER DIAGRAM
+	→SYMBOL OF ER DIAGRAM AND HOW TO DRAW
+
+O 4 > WHAT IS FILE SYSTEM
+
+
+
+Great questions! Let's go step by step and explain each one clearly so you understand everything from the basics.
+
+---
+
+## ✅ **Q1: What is Data and Database?**
+
+### 🔹 **Data**:
+
+> Data is raw facts or information.
+
+**Examples**:
+
+* Name: "Rahul"
+* Age: 20
+* Temperature: 36.6°C
+* Roll Number: 123
+
+👉 Data is not useful on its own until it is processed.
+
+---
+
+### 🔹 **Database**:
+
+> A database is an organized collection of data that can be easily accessed, managed, and updated.
+
+**Example**: A student database contains:
+
+```
+| Roll | Name  | Age |
+|------|-------|-----|
+| 101  | Rahul | 20  |
+| 102  | Aisha | 21  |
+```
+
+---
+
+## ✅ **Q2: What is DBMS and Its Types?**
+
+### 🔹 **DBMS (Database Management System)**:
+
+> DBMS is software used to store, manage, and retrieve data from databases.
+
+**Examples**: MySQL, PostgreSQL, Oracle, SQLite
+
+---
+
+### 🔸 **Types of DBMS**:
+
+| Type                        | Description & Example                                                                   |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| 1. **Relational DBMS**      | Stores data in tables (rows & columns). Uses SQL. <br>➡️ *Example: MySQL, PostgreSQL*   |
+| 2. **Hierarchical DBMS**    | Stores data in tree-like structure (parent-child). <br>➡️ *Example: IBM IMS*            |
+| 3. **Network DBMS**         | More complex. Data is in graph form (many-to-many). <br>➡️ *Example: IDMS*              |
+| 4. **Object-Oriented DBMS** | Data stored as objects (like in OOP). <br>➡️ *Example: db4o, ObjectDB*                  |
+| 5. **NoSQL DBMS**           | Used for unstructured data (documents, key-value). <br>➡️ *Example: MongoDB, Cassandra* |
+
+---
+
+## ✅ **Q3: Data Modeling**
+
+### 🔹 What is Data Modeling?
+
+> Data Modeling is the process of creating a structure (design) of how data will be stored in the database.
+
+It helps organize **entities**, **attributes**, and **relationships**.
+
+---
+
+### 🔸 **ER Diagram (Entity-Relationship Diagram)**
+
+> ER Diagram is a visual representation of data and its relationships.
+
+---
+
+### 🔹 **Main Symbols of ER Diagram**:
+
+| Symbol               | Meaning                       | Example          |
+| -------------------- | ----------------------------- | ---------------- |
+| **Rectangle**        | Entity                        | Student, Teacher |
+| **Ellipse**          | Attribute                     | Name, Age        |
+| **Diamond**          | Relationship                  | Enrolls, Teaches |
+| **Line**             | Connects entity and attribute |                  |
+| **Double Ellipse**   | Multivalued attribute         | Phone Numbers    |
+| **Dashed Ellipse**   | Derived attribute             | Age (from DOB)   |
+| **Double Rectangle** | Weak Entity                   | Dependent        |
+
+---
+
+### 🔹 How to Draw ER Diagram:
+
+1. Identify **entities** (things like Student, Course)
+2. Identify **attributes** (Name, ID, Age)
+3. Identify **relationships** (enrolls, teaches)
+4. Connect using appropriate symbols
+
+---
+
+### 🖼️ Simple Example:
+
+#### "A student enrolls in a course"
+
+```
+[Student] --------(Enrolls)-------- [Course]
+     |                                  |
+   Name                              Title
+   RollNo                            Code
+```
+
+---
+
+## ✅ **Q4: What is File System?**
+
+### 🔹 File System:
+
+> A file system is a way of storing and organizing data in files on a storage device (like hard disk, USB, etc.)
+
+Each file has:
+
+* A name
+* A path (location)
+* Content (data)
+
+---
+
+### 🔸 Difference Between File System and DBMS:
+
+| Feature       | File System            | DBMS                     |
+| ------------- | ---------------------- | ------------------------ |
+| Data Access   | Manual (through code)  | SQL Queries              |
+| Security      | Low                    | High (with user control) |
+| Redundancy    | High                   | Reduced                  |
+| Relationships | Hard to manage         | Easy with keys           |
+| Example       | .txt, .csv, .doc files | MySQL, PostgreSQL        |
+
+---
